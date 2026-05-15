@@ -214,7 +214,7 @@ Built with ❤️ for the **Meeting Muse Hackathon 2026**
 | Name | Role | GitHub |
 |------|------|--------|
 | Sanjay | Full-Stack Developer | [@YourGitHub](https://github.com/) |
-| *(Add teammates)* | *(Role)* | *(Link)* |
+| Sayan Biswas | Full-Stack Developer |  |
 
 ---
 
