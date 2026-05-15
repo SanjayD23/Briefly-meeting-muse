@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Briefly. (AI Meeting Assistant)",
+  "version": "1.0",
+  "description": "Briefly. Intelligent AI Meeting Assistant",
+  "permissions": ["sidePanel", "activeTab", "tabCapture", "storage", "tabs", "scripting"],
+  "host_permissions": ["https://meet.google.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["content_script.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "Open Briefly."
+  }
+}
